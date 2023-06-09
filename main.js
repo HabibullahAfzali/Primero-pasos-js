@@ -10,3 +10,17 @@ addNumbers(12 * 30 + 5, "   Days of the Years");
 console.log(typeof addNumbers);
 addNumbers("A" + "F");
 console.log(typeof addNumbers);
+// ------------------ object creation -------------
+
+const person = {
+  name: "Habib",
+  lastName: "Afzali",
+  age: 30,
+  professon: "Student",
+};
+console.log(
+  person.name,
+  person.lastName,
+  person.age + " years old",
+  person.professon
+);
