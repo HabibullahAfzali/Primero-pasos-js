@@ -1,18 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primero Pasos cond JS</title>
+    <title>Primero Pasos en JS</title>
+    <link rel="stylesheet" href="/main.css">
 </head>
+
 <body>
     <main>
-        <h1>DOM Manipulation and JS Basic Concep Practice</h1>
-        <section>
-            <div class="main">
-
+        <header>
+            <h1>Function Results</h1>
+        </header>
+        <div class="container">
+            <div class="first">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Message from js Function</th>
+                            <th>The Sum Function Result</th>
+                            <th>The Even and Odd Function Result</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id="message"></p>
+                            </td>
+                            <td>
+                                <p id="result"></p>
+                            </td>
+                            <td>
+                                <p id="number"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </section>
+            <div class="car">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>CarBrand |</th>
+                            <th>Fuel Type |</th> 
+                            <th> NumberofDoor </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id="carBrand"></p>
+                            </td>
+                            <td>
+                                <p id="fuelType"></p>
+                            </td>
+                            <td>
+                                <p id="numDoors"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="arr">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Array of numbers</th>
+                            <th>Array Largest Number </th>
+                            <th>Array Smallest Number</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id="array"></p>
+                            </td>
+                            <td>
+                                <p id="largest"></p>
+                            </td>
+                            <td>
+                                <p id="smallest"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="arr">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Coverted to LowerCase</th>
+                            <th>Coverted to UpperCase</th>
+                            <th>Capitalized Each Names First Letter</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id="lowercase"></p>
+                            </td>
+                            <td>
+                                <p id="uppercase"></p>
+                            </td>
+                            <td>
+                                <p id="capitalized"></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="Btn">
+                <button onclick="showMessage()">Show message</button>
+                <div class="btnmessage">
+                    <p>
+                        hello
+                    </p>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <script src="/main.js"></script>
 </body>
+
 </html>

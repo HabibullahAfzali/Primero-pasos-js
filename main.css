@@ -1,0 +1,43 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(236, 238, 237);
+}
+.btnmessage {
+  color: black;
+}
+/* Set the overall container to a grid layout */
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* Divide the container into two columns */
+  grid-template-rows: repeat(2, 1fr);
+  /* Divide the container into two rows */
+  gap: 20px; /* Add a gap between the grid items */
+}
+h1 {
+  text-align: center;
+}
+/* Style each grid item */
+.first {
+  background-color: darkcyan;
+  padding: 20px;
+  text-align: center;
+}
+
+.car {
+  background-color: darkcyan;
+  padding: 20px;
+  text-align: center;
+}
+.arr {
+  background-color: darkcyan;
+  padding: 20px;
+  text-align: center;
+}
+.text {
+  background-color: darkcyan;
+  padding: 20px;
+  text-align: center;
+}
